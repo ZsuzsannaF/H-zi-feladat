@@ -4,3 +4,72 @@
     box-sizing: border-box;
     list-style: none;
 }
+html{
+font-size: 14px;
+}
+body{
+    background-color: black;
+    max-width: 1350px;
+    background-size:cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#header img{
+    width: 1350px;
+}
+#nav>ul>li{
+    display: block;
+    width: 24.99%;
+    float:left ;
+    text-align: center;
+    border: 1px solid rgb(99, 99, 77);
+    padding: 0 auto;
+    left:0;
+    right:0;
+}
+#nav::after{
+    content:'';
+    clear:both;
+    display:table;
+}
+#nav>ul>li>a{
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(240, 238, 236);
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+#nav{
+    position:sticky;
+    top:0;
+    background-color: black;
+}
+#nav a:hover{
+    background-color: rgb(32, 32, 32);
+}
+.box p{
+    line-height: 1.5;
+    color: antiquewhite;
+}
+.box-content img{
+    margin:5px;
+    height: 200px;
+    width: 130px;
+    float: left;
+}
+#boxes .box{
+    max-width: 24.999%;
+    float: left;
+    padding:10px;
+}
+#boxes ::after{
+    content:'';
+    clear:both;
+    display:table;
+}
+.box .box-content {
+    color: rgb(226, 225, 224);
+    line-height: 1.5;
+}
